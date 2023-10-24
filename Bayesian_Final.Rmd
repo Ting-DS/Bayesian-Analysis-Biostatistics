@@ -25,7 +25,7 @@ library(MCMCpack)
 `Tidyverse` includes multiple packages: `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr`
 
 # 1 (Bayesian Hierarchical Model)
-The food habits of 371 male and 192 female healthy employees with average age 38.3 years were examined by a 3-day food record with an additional interview.Our goal is to contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within the subsidiaries. To achieve this goal, we model the data as follows:
+### The food habits of 371 male and 192 female healthy employees with average age 38.3 years were examined by a 3-day food record with an additional interview.Our goal is to contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within the subsidiaries. To achieve this goal, we model the data as follows:
 ```{r out.width="100%", echo=FALSE}
 knitr::include_graphics("/Users/tinglu/Bayesian/IBB.png",error = F)
 ```
