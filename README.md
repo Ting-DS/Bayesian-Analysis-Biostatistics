@@ -1,8 +1,5 @@
 # Bayesian-Analysis-Biostatistics
 
-## Acknowledgement
-The analysis processes referenced materials from the course - [NYU - GPHGU 2372 - Applied Bayesian Analysis in Public Health](https://www.coursicle.com/nyu/courses/GPHGU/2372/). As a graduate of this course in 2022, I would like to express my sincere gratitude to the course instructor, [Dr. Hai Shu](https://publichealth.nyu.edu/faculty/hai-shu).
-
 ## Introduction
 This repository contains 3 classic Bayesian analysis scenarios and related analysis processes including [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling), [Bayesian Hierarchical Linear Mixed Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2883299/), [MCMC Sampling](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo), [Gibbs Sampling](https://en.wikipedia.org/wiki/Gibbs_sampling), [Metropolis-Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm),[Prior &amp; Posterior Distribution](https://medium.com/analytics-vidhya/of-priors-and-posteriors-bayes-and-big-data-7d533b535df2#:~:text=The%20%E2%80%9Cposterior%E2%80%9D%20conditional%20probability%20refers,we%20have%20seen%20our%20data.), [Randomized Clinical Trial(Experimental Studies)](https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/what-clinical-trials-are/randomised-trials#:~:text=Randomised%20trials%20have%20at%20least,phase%202%20trials%20are%20randomised.)
 
@@ -14,6 +11,9 @@ This study aims to discern the overall efficacy of the treatments and identify p
 
 ## Study 3. Exploring Disease Rates in Six Neighboring Counties and their Association with PCB Contamination: 
 This study investigating the impact of PCB Contamination to disease rate in six neighboring counties over a five-year period. **The number of occurrences of a rare, nongenetic birth defect** in a five-year period for six neighboring counties is y = (1, 3, 2, 12, 1, 1). The counties have populations of 2 = (33, 14, 27, 90, 12, 17), given in thousands. The second county has higher rates of toxic chemicals (PCBs) present in soil samples, and it is of interest to know if this town has a high disease rate as well.
+
+## Acknowledgement
+The analysis processes referenced materials from the course - [NYU - GPHGU 2372 - Applied Bayesian Analysis in Public Health](https://www.coursicle.com/nyu/courses/GPHGU/2372/). As a graduate of this course in 2022, I would like to express my sincere gratitude to the course instructor [Dr. Hai Shu](https://publichealth.nyu.edu/faculty/hai-shu).
 
 
 
