@@ -6,10 +6,13 @@
 This repository contains 3 classic Bayesian analysis scenarios and related analysis processes including [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling), [Bayesian Hierarchical Linear Mixed Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2883299/), [Bayesian Hierarchical Poisson Regression Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3783969/), [MCMC Sampling](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo), [Gibbs Sampling](https://en.wikipedia.org/wiki/Gibbs_sampling), [Metropolis-Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm), [Randomized Clinical Trial(Experimental Studies)](https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/what-clinical-trials-are/randomised-trials#:~:text=Randomised%20trials%20have%20at%20least,phase%202%20trials%20are%20randomised.)
 
 ## Study 1. Belgian Lifestyle Improvement and Cholesterol Intake Variability Study (BLICIVS): 
-This study assesses lifestyle improvement campaigns in Western Europe, focusing on smoking cessation and reducing saturated fat consumption. It examines **cholesterol intake variability** among 563 healthy employees(371 male and 192 female) of a Belgian bank, aged 38.3 on average, across **eight subsidiaries**. Data is collected through a 3-day food record and interviews. To contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within 8 subsidiaries, I created the following analysis plan: 
+This study assesses lifestyle improvement campaigns in Western Europe, focusing on smoking cessation and reducing saturated fat consumption. It examines **cholesterol intake variability** among 563 healthy employees(371 male and 192 female) of a Belgian bank, aged 38.3 on average, across **8 subsidiaries**. Data is collected through a 3-day food record and interviews. To contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within 8 subsidiaries, I created the following analysis plan: 
 
  - [Here is the detailed code process](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/tree/main/Study1-Cholesterol-Intake-Variability)
 
+<div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png" width="60%">
+</div>
 ### Bayesian hierarchical normal model:
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB.png" width="60%">
