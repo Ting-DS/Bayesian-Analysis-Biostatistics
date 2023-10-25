@@ -32,8 +32,33 @@ The food habits of 371 male and 192 female healthy employees with average age 38
 ```{r}
 IBB = read.csv("~/Bayesian/Study1-Cholesterol-Intake-Variability/IBBENS.csv")
 head(IBB)
-cat("Frequency of each subsidiaries:\n", table(IBB$subsidiary))
+subsidiary_counts <- table(IBB$subsidiary)
+barplot(subsidiary_counts, 
+        col = "lightblue", 
+        border = "black",
+        names.arg = names(subsidiary_counts),
+        cex.names = 0.7,
+        xlab = "Subsidiary", 
+        ylab = "Count",     
+        main = "Frequency of Subsidiary")
 ```
+
+## EDA (Cholesterol Distribution by Subsidiary)
+```{r}
+IBB$subsidiary_c <- as.character(IBB$subsidiary)
+
+ggplot(IBB, aes(x = subsidiary_c, y = chol)) +
+  geom_boxplot(fill = "lightblue", color = "black") +
+  stat_summary(fun = "mean", geom = "point", size = 3, color = "red")+
+  xlab("Subsidiary") +
+  ylab("Cholesterol Intake") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Cholesterol Distribution by Subsidiary")+
+  theme_minimal()
+```
+
+There is a significant difference in the distribution of daily cholesterol intake in some of the subsidiaries, so it is essential to study the variability among them in depth.
+
 ## Goal & Methods
 To contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within the subsidiaries. To achieve this goal, I build a Bayesian hierarchical normal model as follows:
 ```{r out.width="100%", echo=FALSE}
