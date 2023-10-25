@@ -13,6 +13,7 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png" width="60%">
 </div>
+
 ### Bayesian hierarchical normal model:
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB.png" width="60%">
