@@ -26,7 +26,7 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
 
 ### Gibbs sampling (MCMC sampling)
 ### MCMC Diagnosis: Trace Plot & ACF Plot & ESS
-### Posterior Inference (posterior mean and variance & 95% credible interval, shrinkage evaluation) 
+### Posterior Inference (posterior mean and variance & 95% credible interval, variability comparison, shrinkage evaluation) 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/var.png" width="80%">
 </div>
