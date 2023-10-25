@@ -6,8 +6,9 @@
 This repository contains 3 classic Bayesian analysis scenarios and related analysis processes including [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling), [Bayesian Hierarchical Linear Mixed Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2883299/), [Bayesian Hierarchical Poisson Regression Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3783969/), [MCMC Sampling](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo), [Gibbs Sampling](https://en.wikipedia.org/wiki/Gibbs_sampling), [Metropolis-Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm), [Randomized Clinical Trial(Experimental Studies)](https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/what-clinical-trials-are/randomised-trials#:~:text=Randomised%20trials%20have%20at%20least,phase%202%20trials%20are%20randomised.)
 
 ## Study 1. Belgian Lifestyle Improvement and Cholesterol Intake Variability Study (BLICIVS): 
-This study assesses lifestyle improvement campaigns in Western Europe, focusing on smoking cessation and reducing saturated fat consumption. It examines **cholesterol intake variability** among 563 healthy employees(371 male and 192 female) of a Belgian bank, aged 38.3 on average, across **eight subsidiaries**. Data is collected through a 3-day food record and interviews. To contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within 8 subsidiaries, I build a **Bayesian hierarchical normal model**:
+This study assesses lifestyle improvement campaigns in Western Europe, focusing on smoking cessation and reducing saturated fat consumption. It examines **cholesterol intake variability** among 563 healthy employees(371 male and 192 female) of a Belgian bank, aged 38.3 on average, across **eight subsidiaries**. Data is collected through a 3-day food record and interviews. To contrast the variability of cholesterol intake (chol) in mg/day between the subsidiaries to the variability within 8 subsidiaries, I created the following analysis plan: [here is the detailed code process](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/tree/main/Study1-Cholesterol-Intake-Variability)
 
+### Bayesian hierarchical normal model:
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB.png" width="60%">
 </div>
@@ -16,9 +17,16 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB2.png" width="60%">
 </div>
+
 ### Gibbs sampling (MCMC sampling)
 ### MCMC Diagnosis: Trace Plot & ACF Plot & ESS
 ### Posterior Inference
+<div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/var.png" width="80%">
+</div>
+<div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/shrinkage.png" width="80%">
+</div>
 
 ## Study 2. Multicenter RCT Comparing Oral Medications for Toenail Dermatophyte Onychomycosis: Itraconazole vs. Lamisil: 
 This study aims to discern the overall efficacy of the treatments and identify potential differences between the two medication regimens.In a comprehensive double-blinded multicenter **Randomized Clinical Trial (RCT)** spanning 36 centers, a total of 298 participants, including both sportsmen and elderly individuals, underwent treatment for toenail dermatophyte onychomycosis. They were administered one of two oral medications: **Itraconazole at 250 mg daily (treatment group 0) or Lamisil at 250 mg daily (treatment group 1)**. The treatment course extended over 12 weeks, with assessments conducted at multiple time points, including 0, 1, 2, 3, 6, 9, and 12 months. The primary metric for evaluating treatment response was the measurement of unaffected nail length for the big toenail. 
