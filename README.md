@@ -28,10 +28,10 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
 ### MCMC Diagnosis: Trace Plot & ACF Plot & ESS
 ### Posterior Inference (posterior mean and variance & 95% credible interval, variability comparison, shrinkage evaluation) 
 <div align="center">
-  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/var.png" width="80%">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/var.png" width="100%">
 </div>
 <div align="center">
-  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/shrinkage.png" width="80%">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/shrinkage.png" width="100%">
 </div>
 
 ## Study 2. Multicenter RCT Comparing Oral Medications for Toenail Dermatophyte Onychomycosis: Itraconazole vs. Lamisil: 
