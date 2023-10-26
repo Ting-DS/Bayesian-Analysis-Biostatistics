@@ -1,6 +1,6 @@
 # Bayesian-Analysis
+#### *"Using uncertainty as the brush, coloring with prior beliefs, and composing with a hierarchical structure — creating the statistical art of small-sample analysis!"*
 Bayesian analysis is a statistical approach that estimates parameter posterior distributions using the Bayesian theorem, incorporating prior information and observed data through MCMC sampling.
-
 
 ## Introduction
 This repository contains 3 classic Bayesian analysis scenarios and related analysis processes including [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling), [Hierarchical Linear Mixed Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2883299/), [Hierarchical Poisson Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3783969/), [MCMC Sampling](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo), [Gibbs Sampling](https://en.wikipedia.org/wiki/Gibbs_sampling), [Metropolis-Hastings sampling](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm), [Randomized Clinical Trial(Experimental Studies)](https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/what-clinical-trials-are/randomised-trials#:~:text=Randomised%20trials%20have%20at%20least,phase%202%20trials%20are%20randomised.) etc.
@@ -118,7 +118,7 @@ This study investigating the impact of PCB Contamination to disease rate in six 
  - **Uncertainty Modeling**: Unlike traditional frequentist statistics, which provide fixed parameter values, Bayesian analysis offers **probability distributions for parameter estimation**. This allows for a better understanding of parameter variability and inherent uncertainty.
  - **Hierarchical Models (Mixed Effects Models)**: Bayesian analysis treats parameters as random variables and flexibly introduces parameters at different hierarchical levels, capturing more variability. For instance, in medical research, patients, hospitals, and regions may exhibit varying levels of variability.
 
-## Bayesian Disadvantages:
+## Bayesian Analysis Disadvantages:
  - **Computationally expensive for large samples**
  - **Subjective Prior Selection**: The choice of prior distributions is subjective and may depend on domain expertise. Sensitivity analysis is often necessary when dealing with different prior distributions.
 
