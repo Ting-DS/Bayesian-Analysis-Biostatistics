@@ -172,7 +172,7 @@ init.sigma2 <- mean.s2.sub
 init.tau2 <- var.y.bar.sub
 ```
 
-## Run Gibbs sampling (one of MCMC sampling)
+## Run Gibbs sampling (MCMC sampling)
 ```{r}
 # Run Gibbs sampling (Make sure effective sample size of each parameters is at least 1000.)
 S <- 100000
@@ -211,6 +211,7 @@ for(k in 1:S){
 ```
 
 ## MCMC sampling diagnostic (trace plot, ACF plot, effective sampling size)
+### To make sure Markov chain is converged.
 ### Trace plot
 ```{r}
 ## Trace plots
@@ -271,6 +272,7 @@ e11<-effectiveSize(theta.MCMC[thin,8])
 
 cbind(e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11)
 ```
+
 In above MCMC sampling process, ESS for each parameter is larger than 1000. Effective Sample Size (ESS) is a metric used to assess the quality of an MCMC chain, measuring the independence of information within the generated samples. A higher ESS (>1000) indicates that more samples provide independent information, increasing the reliability of estimates. ESS calculation takes into account autocorrelation and chain length, with higher ESS implying less correlated and more information-rich samples. 
 
 ## Posterior inference
