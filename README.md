@@ -1,4 +1,4 @@
-# Bayesian-Analysis-Study
+# Bayesian-Analysis
 
 
 
