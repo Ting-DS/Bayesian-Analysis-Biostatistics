@@ -14,7 +14,7 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png" width="60%">
 </div>
 
- - Bayesian hierarchical normal model:
+ - **Bayesian hierarchical normal model**:
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB.png" width="60%">
 </div>
@@ -24,8 +24,7 @@ This study assesses lifestyle improvement campaigns in Western Europe, focusing 
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/IBB2.png" width="60%">
 </div>
 
-- Gibbs sampling (MCMC sampling)
-- Markov Chain Convergence Diagnosis: Trace Plot & ACF Plot & ESS
+- Gibbs sampling (MCMC sampling): Markov Chain Convergence Diagnosis: Trace Plot & ACF Plot & ESS
 - Posterior Inference (posterior mean and variance & 95% credible interval, variability comparison, shrinkage evaluation) 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/var.png" width="100%">
@@ -51,7 +50,7 @@ This study aims to discern the overall efficacy of the treatments and identify p
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t1.png" width="60%">
 </div>
 
- - linear fixed effect model & Prior setting
+ - **Linear fixed effect model** & Prior setting
 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fix.png" width="60%">
@@ -61,7 +60,7 @@ This study aims to discern the overall efficacy of the treatments and identify p
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fixPr.png" width="60%">
 </div>
 
- - linear mixed effect model & Prior setting (with random intercept and slope)
+ - **Linear mixed effect model** & Prior setting (with random intercept and slope)
 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mix.png" width="60%">
@@ -71,18 +70,16 @@ This study aims to discern the overall efficacy of the treatments and identify p
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mixPr.png" width="60%">
 </div>
 
- - Gibbs sampling (MCMC sampling)
- - Markov Chain Convergence Diagnosis: Trace Plot & ESS
+ - Gibbs sampling (MCMC sampling): Markov Chain Convergence Diagnosis: Trace Plot & ESS
 
 <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png" width="60%">
 </div>
 
- - Posterior Inference (posterior mean and variance & 95% credible interval)
- - Fixed effect model vs. Mixed effect model
+ - Posterior Inference (posterior mean and variance & 95% credible interval): Fixed effect model vs. Mixed effect model
 
 <div align="center">
-  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png" width="60%">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/vs.png" width="60%">
 </div>
 
 ## Study 3. Exploring Disease Rates in Six Neighboring Counties and their Association with PCB Contamination: 
