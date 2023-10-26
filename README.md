@@ -82,8 +82,36 @@ This study aims to discern the overall efficacy of the treatments and identify p
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/vs.png" width="60%">
 </div>
 
-## Study 3. Exploring Disease Rates in Six Neighboring Counties and their Association with PCB Contamination: 
-This study investigating the impact of PCB Contamination to disease rate in six neighboring counties over a five-year period. **The number of occurrences of a rare, nongenetic birth defect** in a five-year period for six neighboring counties is y = (1, 3, 2, 12, 1, 1). The counties have populations of 2 = (33, 14, 27, 90, 12, 17), given in thousands. The second county has higher rates of toxic chemicals (PCBs) present in soil samples, and it is of interest to know if this town has a high disease rate as well.
+## Study 3. Exploring Highest Disease Rates in 6 Neighboring Counties: 
+This study investigating the impact of PCB Contamination to disease rate in six neighboring counties over a five-year period. **The number of occurrences of a rare, nongenetic birth defect** in a five-year period for six neighboring counties is y = (1, 3, 2, 12, 1, 1). The counties have populations of 2 = (33, 14, 27, 90, 12, 17), given in thousands. The second county has higher rates of toxic chemicals (PCBs) present in soil samples, and it is of interest to know if this town has a high disease rate as well.  
+ - [Here is the detailed code process](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/tree/main/Study3-Disease-Rate)
+ - Hierarchical Poisson Model & Gamma Prior
+   <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/poi.png" width="60%">
+</div>
+ - Posterior Distribution (full conditional distribution of diseases rate)
+    <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/con.png" width="60%">
+</div>
+   <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/fullcon.png" width="60%">
+</div>
+ - Acceptance Ratio
+   <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/AcceptR.png" width="60%">
+</div>
+ - **Metropolis-Hastings Sampling (MCMC sampling)**
+ - Posterior vs. Observsed vs. Prior (Disease rate in each county)
+    <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/Post_i.png" width="60%">
+</div>
+   <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/Post_all.png" width="60%">
+</div>
+ - Disease rate County 2 vs. County i
+    <div align="center">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/2nd.png" width="60%">
+</div>
 
 ## Acknowledgement
 The analysis processes referenced materials from the course - [NYU - GPHGU 2372 - Applied Bayesian Analysis in Public Health](https://www.coursicle.com/nyu/courses/GPHGU/2372/). As a graduate of this course in 2022, I would like to express my sincere gratitude to the course instructor [Dr. Hai Shu](https://publichealth.nyu.edu/faculty/hai-shu).
