@@ -41,48 +41,48 @@ This study aims to discern the overall efficacy of the treatments and identify p
  - EDA
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/loess.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/loess.png" width="60%">
  </div>
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t0.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t0.png" width="60%">
  </div>
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t1.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t1.png" width="60%">
  </div>
 
  - linear fixed effect model & Prior setting
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fix.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fix.png" width="60%">
  </div>
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fixPr.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fixPr.png" width="60%">
  </div>
 
  - linear mixed effect model & Prior setting (with random intercept and slope)
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mix.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mix.png" width="60%">
  </div>
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mixPr.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mixPr.png" width="60%">
  </div>
 
  - Gibbs sampling (MCMC sampling)
  - Markov Chain Convergence Diagnosis: Trace Plot & ESS
 
  <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png" width="60%">
  </div>
 
  - Posterior Inference (posterior mean and variance & 95% credible interval)
  - Fixed effect model vs. Mixed effect model
 <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png)" width="60%">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png" width="60%">
 </div>
 
 ## Study 3. Exploring Disease Rates in Six Neighboring Counties and their Association with PCB Contamination: 
