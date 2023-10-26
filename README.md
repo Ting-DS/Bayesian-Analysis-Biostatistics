@@ -40,47 +40,50 @@ This study aims to discern the overall efficacy of the treatments and identify p
  - [Here is the detailed code process](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/tree/main/Study2-Multicenter-RCT)
  - EDA
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/loess.png)" width="60%">
-</div>
+ </div>
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t0.png)" width="60%">
-</div>
+ </div>
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t1.png)" width="60%">
-</div>
+ </div>
 
  - linear fixed effect model & Prior setting
 
-  <div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fix.png)" width="60%">
-</div>
+ </div>
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/fixPr.png)" width="60%">
-</div>
+ </div>
 
  - linear mixed effect model & Prior setting (with random intercept and slope)
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mix.png)" width="60%">
-</div>
+ </div>
 
-<div align="center">
+ <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/mixPr.png)" width="60%">
-</div>
+ </div>
 
  - Gibbs sampling (MCMC sampling)
  - Markov Chain Convergence Diagnosis: Trace Plot & ESS
 
  <div align="center">
   <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png)" width="60%">
-</div>
+ </div>
 
  - Posterior Inference (posterior mean and variance & 95% credible interval)
  - Fixed effect model vs. Mixed effect model
+<div align="center">
+  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/trace.png)" width="60%">
+</div>
 
 ## Study 3. Exploring Disease Rates in Six Neighboring Counties and their Association with PCB Contamination: 
 This study investigating the impact of PCB Contamination to disease rate in six neighboring counties over a five-year period. **The number of occurrences of a rare, nongenetic birth defect** in a five-year period for six neighboring counties is y = (1, 3, 2, 12, 1, 1). The counties have populations of 2 = (33, 14, 27, 90, 12, 17), given in thousands. The second county has higher rates of toxic chemicals (PCBs) present in soil samples, and it is of interest to know if this town has a high disease rate as well.
