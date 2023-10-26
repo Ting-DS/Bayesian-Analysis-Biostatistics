@@ -40,7 +40,7 @@ This study aims to discern the overall efficacy of the treatments and identify p
  - [Here is the detailed code process](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/tree/main/Study2-Multicenter-RCT)
  - EDA
 <div align="center">
-  <img src="[https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study1-Cholesterol-Intake-Variability/EDA.png](https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/loess.png" width="60%">
+  <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study2-Multicenter-RCT/t0.png" width="60%">
 </div>
 
 <div align="center">
