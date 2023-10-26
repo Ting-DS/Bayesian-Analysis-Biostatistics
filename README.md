@@ -1,4 +1,4 @@
-# Bayesian-Analysis-Biostatistics
+# Bayesian-Analysis-Study
 
 
 
