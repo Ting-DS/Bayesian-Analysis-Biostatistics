@@ -1,5 +1,5 @@
 # Bayesian-Analysis
-
+Bayesian analysis is a statistical approach that estimates parameter posterior distributions using the Bayesian theorem, incorporating prior information and observed data through MCMC sampling.
 
 
 ## Introduction
@@ -112,6 +112,21 @@ This study investigating the impact of PCB Contamination to disease rate in six 
     <div align="center">
   <img src="https://github.com/Ting-DS/Bayesian-Analysis-Biostatistics/blob/main/Study3-Disease-Rate/2nd.png" width="60%">
 </div>
+
+## Bayesian Analysis Advantages
+ - **Robustness for Small Sample Data**: In scenarios such as Phase I clinical trials to assess new medical treatments or drug effects, where budget and safety considerations limit the number of patients enrolled, Bayesian analysis can provide robust parameter estimates by incorporating prior knowledge.
+ - **Uncertainty Modeling**: Unlike traditional frequentist statistics, which provide fixed parameter values, Bayesian analysis offers **probability distributions for parameter estimation**. This allows for a better understanding of parameter variability and inherent uncertainty.
+ - **Hierarchical Models (Mixed Effects Models)**: Bayesian analysis treats parameters as random variables and flexibly introduces parameters at different hierarchical levels, capturing more variability. For instance, in medical research, patients, hospitals, and regions may exhibit varying levels of variability.
+
+## Bayesian Disadvantages:
+ - **Computationally expensive for large samples**
+ - **Subjective Prior Selection**: The choice of prior distributions is subjective and may depend on domain expertise. Sensitivity analysis is often necessary when dealing with different prior distributions.
+
+## Prior Distribution Choices:
+
+ - Non-informative Prior: When no specific domain knowledge is available or neutrality is desired, non-informative priors, such as uniform, normal, or broad distributions, can be used. These distributions do not introduce excessive prior information.
+ - Conjugate Prior: Conjugate priors are selected to simplify calculations by ensuring that the posterior distribution belongs to the same distribution family as the prior. For example, the Beta distribution is a conjugate prior for Bernoulli and binomial distributions, while the Gamma distribution is a conjugate prior for the Poisson distribution, and the normal distribution is a conjugate prior for the normal distribution.
+ - Informative Prior: Informational priors are based on domain knowledge or similar research experience. They provide information about the possible range of parameters and whether parameters should exhibit specific characteristics, such as symmetry or non-negativity.
 
 ## Acknowledgement
 The analysis processes referenced materials from the course - [NYU - GPHGU 2372 - Applied Bayesian Analysis in Public Health](https://www.coursicle.com/nyu/courses/GPHGU/2372/). As a graduate of this course in 2022, I would like to express my sincere gratitude to the course instructor [Dr. Hai Shu](https://publichealth.nyu.edu/faculty/hai-shu).
