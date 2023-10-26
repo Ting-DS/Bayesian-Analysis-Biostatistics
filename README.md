@@ -1,5 +1,5 @@
 # Bayesian-Analysis
-#### *"Using uncertainty as the brush, coloring with prior beliefs, and composing with a hierarchical structure — creating the statistical art of small-sample analysis!"*
+#### *"Using uncertainty as the brush, coloring with prior beliefs, and composing with a hierarchical structure — creating the statistical art of small-sample analysis! --- Ting Lu"*
 Bayesian analysis is a statistical approach that estimates parameter posterior distributions using the Bayesian theorem, incorporating prior information and observed data through MCMC sampling.
 
 ## Introduction
